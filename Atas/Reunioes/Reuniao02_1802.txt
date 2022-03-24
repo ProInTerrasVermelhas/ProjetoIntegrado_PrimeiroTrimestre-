@@ -1,1 +1,14 @@
-Fizemos a primeira entrega de Narrativas Gamificas referente aos "Parâmetros do Jogo"
+Fizemos a primeira entrega de Narrativas Gamificas referente aos "Parâmetros do Jogo" :
+
+
+.INTERFACE: Computador;
+
+.IMERSÃO:Não-mersivo;
+
+.CONTROLE: Mouse/teclado;
+
+.JOGADORES: 1 jogador;
+
+.GÊNERO: Ação Arcade;
+
+.CONDICIONAL ESCOLHIDA PARA A HISTÓRIA PRINCIPAL (uma das quatro Preferências Apostólicas Universais): 2.Caminhar com os pobres, os descartados do mundo, os vulneráveisem sua dignidade em uma missão de reconciliação e justiça.
