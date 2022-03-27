@@ -1,6 +1,10 @@
 # ProjetoIntegrado_PrimeiroTrimestre-
 ![NovaCapa_Terras_Vermelhas](https://user-images.githubusercontent.com/101808085/160294925-f93792d0-6add-4c77-8b52-ad7de25e38bd.jpg)
 
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
+
 <h1 align="center"> História </h1>
 
 A população marciana vive sob domínio de Merlhem, governador marciano, em um eficiente
