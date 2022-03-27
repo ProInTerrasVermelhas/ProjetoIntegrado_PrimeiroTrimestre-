@@ -1,0 +1,14 @@
+Entregamos a atividade "Brainstorm" de Narrativas Gamificadas, em que devia conter :
+
+.Storytelling: que história será contada?
+
+.Gameplaying: como o jogador irá atuar nessa história?
+
+.Protagonista: nome, espécie, idade, sexo, etnia, profissão, histórico.
+
+.Antagonista: nome, espécie, idade, sexo, etnia, profissão, histórico.
+
+.Mundo: descrição de ambientes, coesão entre fases, objetivo das fases.
+
+
+Sendo assim, em nossa reunião, já definimos todos estes pontos acima.
