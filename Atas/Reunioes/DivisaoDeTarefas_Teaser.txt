@@ -1,0 +1,22 @@
+Esta é a divisão de tarefas para a realização do Teaser da matéria de Computação Gráfica 
+
+
+Total: 3min de Vídeo
+
+
+Apresentação de Slides:
+
+.História do Jogo + Perfil dos Personagens-------------------------- Yasmin
+.Características do Cenário + Descrição dos Objetos----------------- Maria Eduarda e Yasmin
+.Referências------------------------------------- ------------------ Maria Eduarda e Yasmin
+.Inserir Frames do Jogo + Vídeo------------------------------------- Yasmin
+
+Produção do Vídeo:
+
+.Inserir personagens + Cenários + Objetos--------------------------- Tiago
+.Abertura + Trilha Sonora------------------------------------------- Fabrício
+.Movimentação dos Personagens nas Cenas----------------------------- Fabrício
+.Inserir Fonte e fala ou Narração----------------------------------- Guilherme
+
+
+

@@ -1,0 +1,4 @@
+Nos foi apresentado a proposta de fazer o teaser para a matéria de computação gráfica com prazo para dia 14/05.
+
+Com isso, achamos melhor mudar a capa e o nome do planeta que estávamos utilizando no enredo para embasar o projeto: Marte. 
+Agora o nome do projeto será "Terras Azuis".
