@@ -22,11 +22,13 @@ Botão esquerdo do mouse - Atira
 
 __________________________Página 8________________________________
 
-Mecânica:
+Mecânica
 
+Tipos:
 Atirar, rolar, andar, baús, alavancas, teletransporte, comprar, coletáveis, escaláveis e 
 plantas venenosas.
 
+Como são usadas no ambiente:
 Baús: Podem conter moedas, munições ou armas.
 Alavancas: Utilizadas para abrir portas.
 Teletransporte: O cristal azul teletransportará o jogador a um lugar secreto
@@ -36,3 +38,12 @@ armaduras, armas e munições.
 Escálaveis: Em algumas fases o jogador terá que escalhar paredes para prosseguir adiante.
 Plantas Venenosas: Algumas plantas de Matusalém são tóxicas e dão dano ao jogador caso ele
 chegue muito perto.
+
+Como se relacionam com as habilidades:
+Atirar: Habilidade do jogador para derrotar os inimigos
+Rolar: Pode ser utilizado para desviar de tiros, andar mais rápido e pular alguns buracos.
+
+Power-ups:
+Cristal Azul: Levará o jogador a um lugar secreto.
+Cristal Verde: Recupera vida do protagonista.
+Cristal Vermelho: O protagonista terá o dano aumentado durante alguns segundos.
