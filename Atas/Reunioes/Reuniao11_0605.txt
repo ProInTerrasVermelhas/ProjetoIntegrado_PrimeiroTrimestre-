@@ -1,0 +1,7 @@
+Durante a aula:
+
+. Fizemos uma parte do vídeo já começando a inserção dos cenários;
+. Finalizamos os requisitos dos slides: Enredo, descrição dos personagens,
+cenários e objetos (descrição) que estarão sendo usados no teaser. Ainda falta os frames do teaser
+e a bibliografia com algumas referências que pegamos;
+. Iniciamos a divisão de tarefas para o início da programação do código.

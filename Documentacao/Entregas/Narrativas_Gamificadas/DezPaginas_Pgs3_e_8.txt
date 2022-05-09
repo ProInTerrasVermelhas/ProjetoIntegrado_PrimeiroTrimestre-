@@ -1,0 +1,49 @@
+________________________Página 3_________________________
+
+Fluxo do Jogo:
+
+Ao longo do jogo o jogador poderá encontrar cristais do poder, algo único de Matusalém, 
+espalhados pelo chão que fornecem benefícios como vida e força, 
+mas também será possível comprá-los. Além disso, quando o jogador matar algum inmigo, 
+receberá uma certa quantidade de moedas. Cada arma terá uma funcionalidade única, 
+sendo umas mais poderosas que outras, facilitando a batalha contra os inimigos. 
+
+Controles:
+
+A - Anda para a esquerda
+W - Anda para cima
+S - Anda para baixo
+D - Anda para a direita
+Espaço - Rola
+Esc - Abre o menu
+E - Interagi com objetos
+M - Abre o mapa
+Botão esquerdo do mouse - Atira
+
+__________________________Página 8________________________________
+
+Mecânica
+
+Tipos:
+Atirar, rolar, andar, baús, alavancas, teletransporte, comprar, coletáveis, escaláveis e 
+plantas venenosas.
+
+Como são usadas no ambiente:
+Baús: Podem conter moedas, munições ou armas.
+Alavancas: Utilizadas para abrir portas.
+Teletransporte: O cristal azul teletransportará o jogador a um lugar secreto
+com recompensas melhores, porém com inimigos mais fortes.
+Comprar: Ao longo das fases será possível interagir com um comerciante e comprar cristais
+armaduras, armas e munições.
+Escálaveis: Em algumas fases o jogador terá que escalhar paredes para prosseguir adiante.
+Plantas Venenosas: Algumas plantas de Matusalém são tóxicas e dão dano ao jogador caso ele
+chegue muito perto.
+
+Como se relacionam com as habilidades:
+Atirar: Habilidade do jogador para derrotar os inimigos
+Rolar: Pode ser utilizado para desviar de tiros, andar mais rápido e pular alguns buracos.
+
+Power-ups:
+Cristal Azul: Levará o jogador a um lugar secreto.
+Cristal Verde: Recupera vida do protagonista.
+Cristal Vermelho: O protagonista terá o dano aumentado durante alguns segundos.

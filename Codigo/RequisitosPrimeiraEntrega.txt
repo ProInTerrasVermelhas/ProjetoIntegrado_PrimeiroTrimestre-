@@ -1,0 +1,6 @@
+Para a apresentação do primeiro Projeto Integrado, com relação a materia de Liguagem de programação e
+Desenvolvimento de aplicativos, devemos: 
+
+. Utilizar Canva HTML para a "ilustração" de algum movimento do personagem;
+. Utilizar o JavaScript DOM;
+. Aplicar try e catch no código;
