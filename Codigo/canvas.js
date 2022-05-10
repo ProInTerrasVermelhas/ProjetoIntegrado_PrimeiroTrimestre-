@@ -1,70 +1,87 @@
-var canvas = document.querySelector('canvas');
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-var ctx = canvas.getContext('2d');
-var cima = 38, baixo = 40, esquerda = 37, direita = 39;
-var x = 100, y = 100;
-var moveCima, moveBaixo, moveDireita, moveEsquerda;
+		var canvas = document.querySelector('canvas');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+		var ctx = canvas.getContext("2d");
+    var cima = 87, baixo = 83, esquerda = 65, direita = 68;
+		var moveEsquerda = false, moveDireita = false, moveCima = false, moveBaixo = false;
+		var x = 100, y = 100;
+    var aux = 2
 
-function criarObjeto(){
-ctx.clearRect(0, 0, canvas.width, canvas.height)
-    ctx.fillStyle = "purple"
-    ctx.fillRect(x, y, 100, 100)
-}
+		update();
 
-update()
+		window.addEventListener("keydown",keydownHandler);
+		window.addEventListener("keyup",keyupHandler);
 
-window.addEventListener("keydown", teclaPressionada)
-window.addEventListener("keyup", teclaSolta)
+		function keydownHandler(e){
+			var key = e.keyCode;
+		
+			if(key == esquerda && key != direita){
+				moveEsquerda = true;
+			}
+			
+			if(key == direita && key != esquerda){
+				moveDireita = true;
+			}
+			
+			if(key == cima && key != baixo){
+				moveCima = true;
+			}
+			
+			if(key == baixo && key != cima){
+				moveBaixo = true;
+			}
+		}
 
-function teclaPressionada(e){
-    if((e.keyCode == esquerda) && (e.keyCode != direita)){
-      esquerda = true
-    }
-    if((e.keyCode == direita) && (e.keyCode != esquerda)){
-      direita = true
-    }
-    if((e.keyCode == cima) && (e.keyCode != baixo)){
-       cima = true
-    }
-    if((e.keyCode == baixo) && (e.keyCode != cima)){
-      baixo = true
-    }
-}
-   
-function teclaSolta(e){
-    if((e.keyCode == esquerda) && (e.keyCode != direita)){
-        esquerda = false
-      }
-      if((e.keyCode == direita) && (e.keyCode != esquerda)){
-        direita = false
-      }
-      if((e.keyCode == cima) && (e.keyCode != baixo)){
-         cima = false
-      }
-      if((e.keyCode == baixo) && (e.keyCode != cima)){
-        baixo = false
-      }
-}
+		function keyupHandler(e){
+			var key = e.keyCode;
+			
+			if(key == esquerda && key != direita){
+				moveEsquerda = false;
+			}
+		
+			if(key == direita && key != esquerda){
+				moveDireita = false;
+			}
+			
+			if(key == cima && key != baixo){
+				moveCima = false;
+			}
+		
+			if(key == baixo && key != cima){
+				moveBaixo = false;
+			}
+		}
 
-function mover(){
-    if (moveEsquerda){
-        x--
-    }
-    if (moveDireita){
-        x++
-    }
-    if (moveCima){
-        y--
-    }
-    if (moveBaixo){
-        y++
-    }
-    update()
-}
+		function mover(){
+			if(moveEsquerda){
+        x = x - aux
+			  x--
+			}
+		
+			if(moveDireita){
+        x = x + aux
+				x++;
+			}
+			
+			if(moveCima){
+        y = y - aux
+				y--;
+			}
 
-function update(){
-    requestAnimationFrame(update, canvas)
-    mover()
-    criarObjeto()
-}
+			if(moveBaixo){
+        y = y + aux
+				y++;
+			}
+		}
+
+		function criarObjeto(){
+			ctx.clearRect(0,0,canvas.width,canvas.height)
+			ctx.fillRect(x,y,100,100)
+      ctx.fillStyle = "purple"
+		}
+
+		function update(){
+			requestAnimationFrame(update);
+			mover();
+			criarObjeto();
+		}
