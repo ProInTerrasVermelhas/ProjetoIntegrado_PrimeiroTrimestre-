@@ -1,0 +1,914 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.5.0" title="Shotcut version 22.01.30" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:10.783">
+    <property name="length">00:00:10.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:10.783"/>
+  </playlist>
+  <producer id="producer0" title="Shotcut version 22.01.30" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Alunos/Desktop/0633c1d9-e166-43aa-bdf0-829f37ebfbce.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-06T12:15:26</property>
+    <property name="shotcut:caption">0633c1d9-e166-43aa-bdf0-829f37ebfbce.jpg</property>
+    <property name="shotcut:hash">d50cd3efbe25463ac656e0198178c0e8</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:00:10.700">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-305.217 -12.7826 2533.27 1125 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:10.700"/>
+  </playlist>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/astro1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T19:05:29</property>
+    <property name="shotcut:hash">ecba31e8813b5e5e4231e96b995f2ab3</property>
+    <property name="shotcut:caption">astro1.png</property>
+    <filter id="filter1" out="00:00:10.700">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">465.87 488.348 337.777 586.957 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:10.700"/>
+  </playlist>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/astrounautas-removebg-preview.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T19:05:45</property>
+    <property name="shotcut:hash">8b0a33ba0ce73c8df83c407a2ebd6efe</property>
+    <property name="shotcut:caption">astrounautas-removebg-preview.png</property>
+    <filter id="filter2" out="00:00:10.700">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">1363.09 427.304 272.195 568.174 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter3" out="00:00:10.700">
+      <property name="mlt_service">avfilter.hflip</property>
+      <property name="mirror">flip</property>
+    </filter>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:10.700"/>
+  </playlist>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/astrounautas-removebg-preview.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T19:05:45</property>
+    <property name="shotcut:hash">8b0a33ba0ce73c8df83c407a2ebd6efe</property>
+    <property name="shotcut:caption">astrounautas-removebg-preview.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" out="00:00:10.700">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">1687.09 544.696 272.195 568.174 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter5" out="00:00:10.700">
+      <property name="mlt_service">avfilter.hflip</property>
+      <property name="mirror">flip</property>
+    </filter>
+    <filter id="filter6" out="00:00:10.700">
+      <property name="lift_r">1.5259e-05</property>
+      <property name="lift_g">-0.188006</property>
+      <property name="lift_b">-0.180011</property>
+      <property name="gamma_r">1.00002</property>
+      <property name="gamma_g">0.76701</property>
+      <property name="gamma_b">0.695995</property>
+      <property name="gain_r">0.498442</property>
+      <property name="gain_g">1.00003</property>
+      <property name="gain_b">0.606847</property>
+      <property name="mlt_service">lift_gamma_gain</property>
+    </filter>
+  </producer>
+  <playlist id="playlist3">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V4</property>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:10.700"/>
+  </playlist>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/astrounautas-removebg-preview.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T19:05:45</property>
+    <property name="shotcut:hash">8b0a33ba0ce73c8df83c407a2ebd6efe</property>
+    <property name="shotcut:caption">astrounautas-removebg-preview.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter7" out="00:00:10.700">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">1461.7 568.174 272.195 568.174 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter8" out="00:00:10.700">
+      <property name="mlt_service">avfilter.hflip</property>
+      <property name="mirror">flip</property>
+    </filter>
+    <filter id="filter9" out="00:00:10.700">
+      <property name="lift_r">1.5259e-05</property>
+      <property name="lift_g">-0.188006</property>
+      <property name="lift_b">-0.180011</property>
+      <property name="gamma_r">1.00002</property>
+      <property name="gamma_g">0.892988</property>
+      <property name="gamma_b">0.641001</property>
+      <property name="gain_r">0.942827</property>
+      <property name="gain_g">1.00003</property>
+      <property name="gain_b">0.589803</property>
+      <property name="mlt_service">lift_gamma_gain</property>
+    </filter>
+  </producer>
+  <playlist id="playlist4">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V5</property>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:10.700"/>
+  </playlist>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/file-removebg-preview cortada.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-06T18:17:06</property>
+    <property name="shotcut:hash">39ab069e61d753a0037fb6303ee9c6b6</property>
+    <property name="shotcut:caption">file-removebg-preview cortada.png</property>
+    <filter id="filter10" out="00:00:10.117">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">537.696 558.783 395.485 399.13 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter11" out="00:00:10.117">
+      <property name="mlt_service">avfilter.hflip</property>
+      <property name="mirror">flip</property>
+    </filter>
+  </producer>
+  <playlist id="playlist5">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V6</property>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:10.117"/>
+  </playlist>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/file-removebg-preview cortada.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-06T18:17:06</property>
+    <property name="shotcut:hash">39ab069e61d753a0037fb6303ee9c6b6</property>
+    <property name="shotcut:caption">file-removebg-preview cortada.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter12" out="00:00:10.117">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">354.565 662.087 395.485 399.13 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter13" out="00:00:10.117">
+      <property name="mlt_service">avfilter.hflip</property>
+      <property name="mirror">flip</property>
+    </filter>
+    <filter id="filter14" out="00:00:10.117">
+      <property name="lift_r">-0.110002</property>
+      <property name="lift_g">0.0999924</property>
+      <property name="lift_b">-0.0449989</property>
+      <property name="gamma_r">0.726268</property>
+      <property name="gamma_g">0.592416</property>
+      <property name="gamma_b">0.769238</property>
+      <property name="gain_r">0.923546</property>
+      <property name="gain_g">1.08368</property>
+      <property name="gain_b">0.522733</property>
+      <property name="mlt_service">lift_gamma_gain</property>
+    </filter>
+  </producer>
+  <playlist id="playlist6">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V7</property>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:10.117"/>
+  </playlist>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/file-removebg-preview cortada.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-06T18:17:06</property>
+    <property name="shotcut:hash">39ab069e61d753a0037fb6303ee9c6b6</property>
+    <property name="shotcut:caption">file-removebg-preview cortada.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter15" out="00:00:10.117">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">683.261 619.826 395.485 399.13 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter16" out="00:00:10.117">
+      <property name="mlt_service">avfilter.hflip</property>
+      <property name="mirror">flip</property>
+    </filter>
+    <filter id="filter17" out="00:00:10.117">
+      <property name="lift_r">-0.162005</property>
+      <property name="lift_g">-0.173999</property>
+      <property name="lift_b">0.0980087</property>
+      <property name="gamma_r">0.707988</property>
+      <property name="gamma_g">0.764996</property>
+      <property name="gamma_b">0.771008</property>
+      <property name="gain_r">0.904407</property>
+      <property name="gain_g">0.974198</property>
+      <property name="gain_b">1.07747</property>
+      <property name="mlt_service">lift_gamma_gain</property>
+    </filter>
+  </producer>
+  <playlist id="playlist7">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V8</property>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:10.117"/>
+  </playlist>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/file-removebg-preview cortada.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-06T18:17:06</property>
+    <property name="shotcut:hash">39ab069e61d753a0037fb6303ee9c6b6</property>
+    <property name="shotcut:caption">file-removebg-preview cortada.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter18" out="00:00:10.117">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">101 596.348 395.485 399.13 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter19" out="00:00:10.117">
+      <property name="mlt_service">avfilter.hflip</property>
+      <property name="mirror">flip</property>
+    </filter>
+  </producer>
+  <playlist id="playlist8">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V9</property>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:10.117"/>
+  </playlist>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/preto.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T19:16:36</property>
+    <property name="shotcut:hash">9907381ca3c99e8fffe4b9268052232e</property>
+    <property name="shotcut:caption">preto.png</property>
+    <filter id="filter20" out="00:00:00.400">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-84.5217 -348.174 2000 2000 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter21" out="00:00:00.400">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:00.017=1;00:00:00.400=0</property>
+      <property name="shotcut:animOut">24</property>
+    </filter>
+    <filter id="filter22" out="00:00:00.400">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.017=0;00:00:00.400=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">24</property>
+    </filter>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/f366fb602752fe89a8989437e3c01f5f.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T12:17:53</property>
+    <property name="shotcut:hash">b346bbf42513a9e1664ede53b9f215cc</property>
+    <property name="shotcut:caption">f366fb602752fe89a8989437e3c01f5f.png</property>
+    <filter id="filter23" out="00:00:01.883">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">327.348 201.913 637.861 432 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter24" out="00:00:01.883">
+      <property name="argument">Saíam do nosso 
+planeta agora!</property>
+      <property name="geometry">348 221 568 263 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">540</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aaffffff</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/f366fb602752fe89a8989437e3c01f5f.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T12:17:53</property>
+    <property name="shotcut:hash">b346bbf42513a9e1664ede53b9f215cc</property>
+    <property name="shotcut:caption">f366fb602752fe89a8989437e3c01f5f.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter25" out="00:00:01.950">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">505.783 126.783 693.327 469.565 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter26" out="00:00:01.950">
+      <property name="mlt_service">avfilter.hflip</property>
+      <property name="mirror">flip</property>
+    </filter>
+    <filter id="filter27" out="00:00:01.950">
+      <property name="argument">A Terra está morrendo.
+Precisamos de um lugar
+para morar.</property>
+      <property name="geometry">779 70 633 380 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">360</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aaffffff</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">15</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/f366fb602752fe89a8989437e3c01f5f.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T12:17:53</property>
+    <property name="shotcut:hash">b346bbf42513a9e1664ede53b9f215cc</property>
+    <property name="shotcut:caption">f366fb602752fe89a8989437e3c01f5f.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter28" out="00:00:01.433">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">327.348 201.913 637.861 432 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter29" out="00:00:01.433">
+      <property name="argument">Tudo que vocês 
+tocam é destruído</property>
+      <property name="geometry">348 221 568 263 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">540</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aaffffff</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">15</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/f366fb602752fe89a8989437e3c01f5f.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T12:17:53</property>
+    <property name="shotcut:hash">b346bbf42513a9e1664ede53b9f215cc</property>
+    <property name="shotcut:caption">f366fb602752fe89a8989437e3c01f5f.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter30" out="00:00:00.967">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">505.783 126.783 693.327 469.565 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter31" out="00:00:00.967">
+      <property name="mlt_service">avfilter.hflip</property>
+      <property name="mirror">flip</property>
+    </filter>
+    <filter id="filter32" out="00:00:00.967">
+      <property name="argument">Sendo assim...</property>
+      <property name="geometry">798 93 581 352 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aaffffff</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">15</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/1537041.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T12:26:27</property>
+    <property name="shotcut:hash">77b3c563a1a495d5d407828216af88e6</property>
+    <property name="shotcut:caption">1537041.png</property>
+    <filter id="filter33" out="00:00:00.900">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=1157.48 -400 300 300 1;00:00:00.783=1157.48 350 300 300 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">134.764</property>
+    </filter>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/comic-2340467_1280.webp</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T12:28:12</property>
+    <property name="shotcut:hash">03ce47a788a20218617ca21fda61f9a0</property>
+    <property name="shotcut:caption">comic-2340467_1280.webp</property>
+    <property name="xml">was here</property>
+    <filter id="filter34" out="00:00:00.800">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">748.696 403.826 1209.6 756 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/Alunos/Desktop/preto.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-05-13T19:16:36</property>
+    <property name="shotcut:hash">9907381ca3c99e8fffe4b9268052232e</property>
+    <property name="shotcut:caption">preto.png</property>
+    <filter id="filter35" out="00:00:00.583">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:00.367=1</property>
+      <property name="shotcut:animIn">23</property>
+    </filter>
+    <filter id="filter36" out="00:00:00.583">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-251.478 -610.435 2422.96 2422.96 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter37" out="00:00:00.583">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.367=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">23</property>
+    </filter>
+  </producer>
+  <playlist id="playlist9">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V10</property>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:00.400"/>
+    <blank length="00:00:00.033"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:01.883"/>
+    <blank length="00:00:00.483"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:01.950"/>
+    <blank length="00:00:00.500"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:01.433"/>
+    <blank length="00:00:00.500"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:00.967"/>
+    <blank length="00:00:00.267"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:00.900"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:00.800"/>
+    <entry producer="producer16" in="00:00:00.033" out="00:00:00.583"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.01.30" in="00:00:00.000" out="00:00:10.783">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2"/>
+    <track producer="playlist3"/>
+    <track producer="playlist4"/>
+    <track producer="playlist5"/>
+    <track producer="playlist6"/>
+    <track producer="playlist7"/>
+    <track producer="playlist8"/>
+    <track producer="playlist9"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">1</property>
+      <property name="b_track">4</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition8">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">1</property>
+      <property name="b_track">5</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition10">
+      <property name="a_track">0</property>
+      <property name="b_track">6</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition11">
+      <property name="a_track">1</property>
+      <property name="b_track">6</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition12">
+      <property name="a_track">0</property>
+      <property name="b_track">7</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition13">
+      <property name="a_track">1</property>
+      <property name="b_track">7</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition14">
+      <property name="a_track">0</property>
+      <property name="b_track">8</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition15">
+      <property name="a_track">1</property>
+      <property name="b_track">8</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition16">
+      <property name="a_track">0</property>
+      <property name="b_track">9</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition17">
+      <property name="a_track">1</property>
+      <property name="b_track">9</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition18">
+      <property name="a_track">0</property>
+      <property name="b_track">10</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition19">
+      <property name="a_track">1</property>
+      <property name="b_track">10</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
