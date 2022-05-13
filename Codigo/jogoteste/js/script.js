@@ -1,12 +1,14 @@
 (function(){
 	var cnv = document.querySelector("canvas");
 	var ctx = cnv.getContext("2d");
-	
+
 	var WIDTH = cnv.width, HEIGHT = cnv.height;
-	
-	var LEFT = 37, UP = 38, RIGHT = 39, DOWN = 40;
-	var mvLeft = mvUp = mvRight = mvDown = false;
-	
+
+	var cima = 87, baixo = 83, esquerda = 65, direita = 68;
+	var moveEsquerda = false, moveDireita = false, moveCima = false, moveBaixo = false;
+	var aux = 2, auxY = 2;
+	var posX = 100, posY = 100;
+
 	var tileSize = 16;
 	
 	//array que armazenará os muros do labirinto
@@ -190,3 +192,5 @@
 	}
 	requestAnimationFrame(loop,cnv);
 }());
+
+
