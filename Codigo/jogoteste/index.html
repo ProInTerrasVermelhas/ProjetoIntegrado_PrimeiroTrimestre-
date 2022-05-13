@@ -1,16 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<meta name="generator" content="Geany 1.27" />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="#" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOST MEMORIES</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
-<canvas width="1500" height="700" style="border: solid;">
-<script src="js/script.js"></script>
+<body onkeydown="passos(event)">
+	<audio src="res/sound/Audio.mp3" id="som"></audio>
+    <div class="parent">
+        <div class="div1">
+            <h1>Vida</h1>
+            <h2 id="vida"></h2>
+        </div>
+        <div class="div2">
+            <canvas>
+            </canvas>
+        </div>
+        <div class="div3"> </div>
+        </div>
+    <script src="game.js"></script>
 </body>
 </html>

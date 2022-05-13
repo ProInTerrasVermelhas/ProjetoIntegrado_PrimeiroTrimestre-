@@ -1,11 +1,35 @@
-		var canvas = document.querySelector('canvas');
+	var canvas = document.querySelector('canvas');
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-		var ctx = canvas.getContext("2d");
-    var cima = 87, baixo = 83, esquerda = 65, direita = 68;
-		var moveEsquerda = false, moveDireita = false, moveCima = false, moveBaixo = false;
-		var x = 100, y = 100;
+	var ctx = canvas.getContext("2d");
+    var cima = 87, baixo = 83, esquerda = 65, direita = 68;	
+	var moveEsquerda = false, moveDireita = false, moveCima = false, moveBaixo = false;
+	var x = 100, y = 100;
     var aux = 2
+	var posX = -100, posY = -100
+
+	function paredes(){
+	ctx.fillRect(300,0,20,300)
+	ctx.fillStyle = "black"
+	ctx.fillRect(800,600,20,300)
+	ctx.fillStyle = "black"
+	ctx.fillRect(1200,400,20,500)
+	ctx.fillStyle = "black"
+	ctx.fillRect(300,300,300,20)
+	ctx.fillStyle = "black"
+	ctx.fillRect(650,600,300,20)
+	ctx.fillStyle = "black"
+	ctx.fillRect(900,400,300,20)
+	ctx.fillStyle = "black"
+	ctx.fillRect(900,100,20,300)
+	ctx.fillStyle = "black"
+	ctx.fillRect(600,100,300,20)
+	ctx.fillStyle = "black"
+	ctx.fillRect(0,600,500,20)
+	ctx.fillStyle = "black"
+	}
+
+		function alien(){
 
 		update();
 
@@ -75,9 +99,10 @@
 		}
 
 		function criarObjeto(){
-			ctx.clearRect(0,0,canvas.width,canvas.height)
+			ctx.clearRect(x,y,canvas.width,canvas.height)
+			paredes()
 			ctx.fillRect(x,y,100,100)
-      ctx.fillStyle = "purple"
+			ctx.fillStyle = "purple"
 		}
 
 		function update(){
@@ -85,3 +110,4 @@
 			mover();
 			criarObjeto();
 		}
+	}
